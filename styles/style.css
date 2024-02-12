@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+/*-------------------
+      head style
+  -------------------*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {}
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.932);
+    padding: 48px;
+    border-radius: 15px;
+
+}
+
+.introduction h1 {
+    margin-top: 80px;
+}
+
+.introduction p {
+    font-size: 14px;
+    padding-right: 80px;
+}
+
+.live-btn {
+    border: none;
+    background-color: black;
+    color: lightgray;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.fa-angle-right {
+    margin-left: 5px;
+    color: gray;
+}
