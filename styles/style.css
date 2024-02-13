@@ -1,6 +1,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 /*-------------------
@@ -12,16 +15,28 @@ main {
     align-items: center;
 }
 
-.container {}
+.container {
+    width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
 
 .top {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
     color: white;
     background-color: rgba(0, 0, 0, 0.932);
     padding: 48px;
     border-radius: 15px;
 
+}
+
+
+.introduction img {
+    width: 100%;
 }
 
 .introduction h1 {
@@ -30,7 +45,7 @@ main {
 
 .introduction p {
     font-size: 14px;
-    padding-right: 80px;
+
 }
 
 .live-btn {
@@ -45,4 +60,103 @@ main {
 .fa-angle-right {
     margin-left: 5px;
     color: gray;
+}
+
+/*-------------------
+     Blogs Section 
+---------------------*/
+/* -------------
+     menu 
+---------------*/
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.932);
+    width: 21%;
+    height: 150px;
+    padding: 40px;
+    border-radius: 8px;
+    gap: 10px;
+
+}
+
+.blog-btn {
+    text-decoration: none;
+    color: black;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    margin: 0%;
+    font-size: 17px;
+    font-weight: bolder;
+
+}
+
+.blog-btn:hover {
+    background-color: red;
+}
+
+/*----------------
+       Blogs
+------------------- */
+.blog-section {
+    display: flex;
+    gap: 15px;
+}
+
+.blog-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+
+.card {
+    box-shadow: 1px 1px 15px 1px;
+    border-radius: 8px;
+    /* width: 28%;
+    height: 450px; */
+}
+
+.blog-img img {
+    width: 100%;
+    height: 10rem;
+}
+
+.context-btn {
+    border: none;
+    background-color: burlywood;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.context-btn a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.container h4 {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10x;
+}
+
+.context-time {
+    display: flex;
+}
+
+.comment {
+    display: flex;
 }
