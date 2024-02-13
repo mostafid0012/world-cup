@@ -19,6 +19,7 @@ main {
     width: 1200px;
     margin: auto;
     padding: 1rem;
+    padding-bottom: 7rem;
 }
 
 .top {
@@ -159,4 +160,58 @@ main {
 
 .comment {
     display: flex;
+}
+
+/*------------------- 
+        Footer
+----------------- */
+footer {
+    background-color: #000;
+    padding: 5rem;
+    padding-bottom: 2rem;
+}
+
+.final {
+    padding: 0.5rem;
+}
+
+.footer-title {
+    color: rgb(187, 44, 80);
+    text-align: center;
+    font-size: 42px;
+    padding-bottom: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu a {
+    color: rgba(196, 49, 49, 0.74);
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+.icon-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    gap: 0.5rem;
+
+}
+
+#icon {
+    font-size: 30px;
+    color: #e6e326c2;
+    margin: 10px;
+}
+
+.final p {
+    color: whitesmoke;
+    text-align: center;
+    padding: 1px;
 }
